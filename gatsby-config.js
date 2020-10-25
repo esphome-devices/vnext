@@ -55,7 +55,9 @@ module.exports = {
               className: "table-of-contents"
             },
           },
-          `gatsby-remark-autolink-headers`
+          `gatsby-remark-autolink-headers`,
+          `gatsby-plugin-netlify`,
+          'gatsby-plugin-netlify-cache'
         ],
       },
     },
