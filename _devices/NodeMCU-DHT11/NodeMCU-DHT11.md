@@ -5,9 +5,6 @@ type: sensor
 standard: global
 ---
 
-1. TOC
-{:toc}
-
 ## GPIO Pinout
 
 | Pin     | Function                           |
@@ -57,11 +54,11 @@ api:
 
 ota:
   #password: !secret esphome_ota_pwd
-  
+
 switch:
   - platform: restart
-    name: ${friendly_name} Restart  
-  
+    name: ${friendly_name} Restart
+
 sensor:
   - platform: dht
     pin: D3 #GPIO5
@@ -88,7 +85,7 @@ sensor:
       accuracy_decimals: 1        # humidity gets 0 decimals by default
     model: DHT11
     update_interval: 60s
-  
+
   - platform: wifi_signal
     name: ${friendly_name} WiFi Signal Strength
     update_interval: 60s

@@ -4,9 +4,6 @@ date-published: 2020-01-04
 type: plug
 standard: au
 ---
-1. TOC
-{:toc}
-
 ## GPIO Pinout
 
 | Pin     | Function                           |
@@ -23,17 +20,17 @@ standard: au
 substitutions:
   device_name: "arlec_PC288HA_1"
   name: "ARLEC PC288HA 1"
-  
+
 esphome:
   name: ${device_name}
   comment: ${name}
   platform: ESP8266
   board: esp01_1m
-  
+
 wifi:
   ssid: 'ssid'
   password: 'password'
-  
+
 logger:
 
 api:
@@ -41,7 +38,7 @@ api:
 
 ota:
   password: 'ota_password'
-  
+
 sensor:
   - platform: uptime
     name: ${name} Uptime

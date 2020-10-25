@@ -5,9 +5,6 @@ type: light
 standard: au
 ---
 
-1. TOC
-{:toc}
-
 ## General Notes
 
 This configuration is for the  [Arlec Smart 2m LED Strip Light](https://www.bunnings.com.au/arlec-2m-led-white-smart-colour-changing-strip-light-with-grid-connect_p0099707)

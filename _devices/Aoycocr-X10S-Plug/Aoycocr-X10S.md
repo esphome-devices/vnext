@@ -10,9 +10,6 @@ This template was based on the AWP04L template and modified for this device.  I 
 
 The GPIO pinout was learned from [Blakadder Tasmota](https://templates.blakadder.com/aoycocr_X10S.html) documentation.
 
-1. TOC
-{:toc}
-
 ## GPIO Pinout
 
 | Pin     | Function                           |
@@ -34,7 +31,7 @@ substitutions:
   device_name: aoycocr_plug
   device_description: Energy Monitoring Smart Plug with button, blue LED, and red LED.
   friendly_name: Aoycocr-X10S Plug
-  
+
 
 esphome:
   name: ${device_name}
@@ -299,11 +296,11 @@ logger:
 # Enable Home Assistant API
 api:
   password: !secret esphomeapipwd
-  
+
 # Enable OTA updates
 ota:
   password: !secret esphomeotapwd
-  
+
 # Enable web server
 web_server:
   port: 80

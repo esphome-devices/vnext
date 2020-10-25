@@ -1,12 +1,9 @@
 ---
-title: Mirabella Genio Wi-Fi SES LED Candle 
+title: Mirabella Genio Wi-Fi SES LED Candle
 date-published: 2019-12-06
 type: light
 standard: au
 ---
-
-1. TOC
-{:toc}
 
 ## General Notes
 
@@ -41,7 +38,7 @@ wifi:
     ssid: 'mirabella1'
     password: 'ap_password'
   domain: '.mydomain.com'
-  
+
 # Enable logging
 logger:
 

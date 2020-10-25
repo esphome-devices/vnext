@@ -8,9 +8,6 @@ Single channel relay with 433Mhz RF module, flashable via tuya-convert or UART a
 
 Because the actual handling of the RF signals is done by the ESP, any previous remote pairs will be reset upon flashing esphome. See the Remote Pairing section. However, each paired button can be sent to the smart hub such as Home Assistant, even if it doesn't control the relay in the device receiving the signal - allowing you to (indirectly) control any device/functionality in your smart home system through the RF buttons.
 
-1. TOC
-{:toc}
-
 ## Pictures
 
 ![alt text](/top.jpg "Top of closed module")

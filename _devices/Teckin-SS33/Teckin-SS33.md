@@ -5,9 +5,6 @@ type: plug
 standard: us
 ---
 
-1. TOC
-{:toc}
-
 ## GPIO Pinout
 
 | Pin     | Function                           |
@@ -46,8 +43,8 @@ api:
 
 ota:
   password: !secret outdoor_ss33_ota
-  
-  
+
+
 sensor:
   - platform: wifi_signal
     name: "Outdoor SS33 WiFi signal"
@@ -58,7 +55,7 @@ sensor:
 
 text_sensor:
   - platform: version
-    name: "Outdoor SS33 ESPHome version"  
+    name: "Outdoor SS33 ESPHome version"
 
 switch:
   - platform: gpio

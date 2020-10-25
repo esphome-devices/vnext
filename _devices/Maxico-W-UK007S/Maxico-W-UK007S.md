@@ -5,9 +5,6 @@ type: plug
 standard: uk
 ---
 
-1. TOC
-{:toc}
-
 ## GPIO Pinout
 
 | Pin     | Function                           |
@@ -88,7 +85,7 @@ switch:
       - light.turn_off:
           id: led
           transition_length: 0s
-  
+
 sensor:
   # WiFi Signal Sensor
   - platform: wifi_signal

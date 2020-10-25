@@ -15,9 +15,6 @@ Since the RF module still handles all the RF input, the pairing instructions are
 
 Because the ESP's main UART is connected to the RF module, programming with an external UART and pulling down GPIO0 does not work, you must use tuya-convert. Since flashing the ESP does not reset the RF module, your paired remotes will not be changed.
 
-1. TOC
-{:toc}
-
 ## Pictures
 
 ![alt text](/top.jpg "Top of closed module")
@@ -81,7 +78,7 @@ uart:
   baud_rate: 9600
   tx_pin: GPIO1
   rx_pin: GPIO3
-  
+
 #status_led:
 #  pin:
 #    number: GPIO04
@@ -134,10 +131,10 @@ class QiachipUART : public PollingComponent, public BinarySensor{
       char buffer[4];
       Serial.readBytes(buffer, 4);
       if (buffer[3] == 0xF7) {
-        // 53 00 01 F7  
+        // 53 00 01 F7
         publish_state(true);
       } else if (buffer[3] == 0xF6) {
-        // 53 00 00 F6  
+        // 53 00 00 F6
         publish_state(false);
       }
     } else if (Serial.available() > 4) {
@@ -195,7 +192,7 @@ uart:
   baud_rate: 9600
   tx_pin: GPIO1
   rx_pin: GPIO3
-  
+
 #status_led:
 #  pin:
 #    number: GPIO04

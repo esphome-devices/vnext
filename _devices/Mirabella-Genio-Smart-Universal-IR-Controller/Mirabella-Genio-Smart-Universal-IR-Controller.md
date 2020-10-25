@@ -5,9 +5,6 @@ type: misc
 standard: au
 ---
 
-1. TOC
-{:toc}
-
 ## GPIO Pinout
 
 | Pin     | Function                           |
@@ -37,7 +34,7 @@ wifi:
     ssid: 'apssid'
     password: 'ap_password'
   domain: '.mydomain.com'
-  
+
 # Enable logging
 logger:
 
@@ -57,13 +54,13 @@ sensor:
 remote_transmitter:
   pin: GPIO14
   carrier_duty_percent: 33%
-  
+
 remote_receiver:
   pin:
     number: GPIO5
     inverted: True
  #dump: jvc
-  
+
 binary_sensor:
   - platform: remote_receiver
     name: "Sony_TV(RF-On)"
@@ -244,7 +241,7 @@ switch:
     name: WIZ mode 4
     id: wiz_rf_4
     optimistic: true
-    restore_state: true  
+    restore_state: true
 
   - platform: template
     name: WIZ Remote Power
@@ -257,7 +254,7 @@ switch:
     turn_off_action:
       - remote_transmitter.transmit_jvc:
           data: '0x40BF'
-  
+
 
 output:
   - platform: esp8266_pwm

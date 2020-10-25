@@ -5,9 +5,6 @@ type: switch
 standard: au
 ---
 
-1. TOC
-{:toc}
-
 ## General Notes
 
 The DETA [Smart Single Switch (6911HA)](https://www.bunnings.com.au/deta-smart-single-gang-light-switch-touch-activated-with-grid-connect_p0098811) and [Smart Double Switch (6912HA)](https://www.bunnings.com.au/deta-smart-double-gang-light-switch-touch-activated-with-grid-connect_p0098812) are made by Arlec as part of the [Grid Connect ecosystem](https://grid-connect.com.au/), and are sold at Bunnings in Australia and New Zealand.  They can be flashed without disassembly or soldering [using tuya-convert](#tuya-convert).

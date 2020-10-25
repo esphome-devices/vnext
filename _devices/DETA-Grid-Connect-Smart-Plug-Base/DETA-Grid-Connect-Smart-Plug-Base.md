@@ -6,9 +6,6 @@ type: plug
 standard: au
 ---
 
-1. TOC
-{:toc}
-
 ## General Notes
 
 The DETA [Smart Plug Base](https://www.bunnings.com.au/deta-smart-plug-base-with-grid-connect_p0098817) are made by Arlec as part of the [Grid Connect ecosystem](https://grid-connect.com.au/), and are sold at Bunnings in Australia and New Zealand.  They can be flashed without disassembly or soldering [using tuya-convert](#tuya-convert).
@@ -40,7 +37,7 @@ These switches are Tuya devices, so if you don't want to open them up to flash d
 substitutions:
   device_name: "deta_smartplug_1"
   name: "Deta Smartplug 1"
-  
+
 esphome:
   name: ${device_name}
   comment: ${name}
@@ -59,11 +56,11 @@ wifi:
     ssid: ${device_name} Hotspot
     password: "Password"
 
-captive_portal:  
+captive_portal:
 
 logger:
   #level: VERBOSE
-  
+
 api:
 
 ota:
@@ -96,8 +93,8 @@ sensor:
   - platform: wifi_signal
     name: ${device_name} Wifi Signal
     update_interval: 60s
-  
-text_sensor:  
+
+text_sensor:
   - platform: version
     name: ${device_name} ESPhome Version
   - platform: wifi_info

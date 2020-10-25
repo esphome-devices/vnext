@@ -5,21 +5,18 @@ type: plug
 standard: us
 ---
 
-1. TOC
-{:toc}
-
 ## Product Images
 
-Wall side of relay board  
+Wall side of relay board
  ![alt text](/WallSide.jpeg "Wall Side of Board")
 
-Socket side of relay board  
+Socket side of relay board
  ![alt text](/SocketSide.jpeg "Socket Side of Board")
 
-ESP8266 board  
+ESP8266 board
  ![alt text](/ESPboard.jpeg "ESP board")
 
-GPIO Descriptions  
+GPIO Descriptions
  ![alt text](/GPIOs.jpeg "GPIO Descriptions")
 
 ## GPIO Pinout
@@ -57,7 +54,7 @@ ota:
 # Enable WEB server for status and updates.
 web_server:
   port: 80
-  
+
 # Button on top of plug.
 binary_sensor:
   - platform: gpio

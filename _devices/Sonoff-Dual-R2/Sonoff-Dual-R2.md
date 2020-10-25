@@ -5,9 +5,6 @@ type: relay
 standard: global
 ---
 
-1. TOC
-{:toc}
-
 ## Product Images
 
 ![alt text](/inside_pcb_1_4.jpg "PCB v1.4")
@@ -116,7 +113,7 @@ sensor:
   - platform: uptime
     name: "${dev_name}_uptime"
     update_interval: 120s
-  
+
 text_sensor:
   - platform: version
     name: "${dev_name}_version"

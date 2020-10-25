@@ -5,9 +5,6 @@ type: plug
 standard: eu
 ---
 
-1. TOC
-{:toc}
-
 ## Notice
 
 - This plug is flashable using the latest tuya-convert with a compiled ESPHome binary

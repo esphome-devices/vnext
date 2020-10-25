@@ -5,9 +5,6 @@ type: plug
 standard: us
 ---
 
-1. TOC
-{:toc}
-
 ## GPIO Pinout
 
 | Pin     | Function                           |
@@ -26,11 +23,11 @@ esphome:
   name: geeni_outdoor
   platform: ESP8266
   board: esp01_1m
-  
+
 wifi:
   ssid: 'ssid'
   password: 'wifi_password'
-  
+
 logger:
 
 api:
@@ -38,7 +35,7 @@ api:
 
 ota:
   password: 'OTA_password'
-  
+
 web_server:
 
 binary_sensor:

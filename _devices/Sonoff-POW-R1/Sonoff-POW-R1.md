@@ -5,9 +5,6 @@ type: plug
 standard: global
 ---
 
-1. TOC
-{:toc}
-
 ## Product Images
 
 ![alt text](/inside.jpg "inside")

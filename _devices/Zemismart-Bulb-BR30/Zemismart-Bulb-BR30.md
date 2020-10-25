@@ -6,9 +6,6 @@ standard: eu
 ---
 RGBW smart light bulb, BR30 shape, E27 base, 420-480lm, RGB colors + cold white, 100-240V AC 50/60Hz, natively Tuya/Smart Life, works with Tuya-convert to flash to ESPHome.
 
-1. TOC
-{:toc}
-
 ## Product Images
 
 ![alt text](/inside.jpg "inside")
@@ -36,7 +33,7 @@ wifi:
 
 # Enable logging
 logger:
-  
+
 api:
 
 ota:

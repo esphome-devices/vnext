@@ -5,9 +5,6 @@ type: plug
 standard: au
 ---
 
-1. TOC
-{:toc}
-
 ## GPIO Pinout
 
 | Pin     | Function                           |
@@ -36,7 +33,7 @@ wifi:
     ssid: 'ap_ssid'
     password: 'ap_password'
   domain: '.domain.com'
-  
+
 # Enable logging
 logger:
 

@@ -5,9 +5,6 @@ type: plug
 standard: us
 ---
 
-1. TOC
-{:toc}
-
 ## GPIO Pinout
 
 | Pin     | Function                           |
@@ -31,12 +28,12 @@ esphome:
 wifi:
   ssid: !secret wifissid
   password: !secret wifipass
-  
+
   ap:
     ssid: SP10_AP
     password: !secret wifipass
     channel: 1
-  
+
 logger:
 
 api:
@@ -80,8 +77,8 @@ sensor:
   - platform: wifi_signal
     name: SP10 Wifi Signal
     update_interval: 60s
-  
-text_sensor:  
+
+text_sensor:
   - platform: version
     name: SP10 ESPhome Version
   - platform: wifi_info

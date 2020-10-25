@@ -4,9 +4,6 @@ date-published: 2019-10-11
 type: plug
 standard: us
 ---
-1. TOC
-{:toc}
-
 ## GPIO Pinout
 
 | Pin     | Function                           |
@@ -40,7 +37,7 @@ ota:
 uart:
   rx_pin: RX
   baud_rate: 4800
-  
+
 binary_sensor:
   - platform: gpio
     pin:

@@ -9,9 +9,6 @@ The Arlec PB89HA power board is part of the [Grid Connect ecosystem](https://gri
 
 It has five sockets: four individually controllable, plus one which is permanently powered (marked "ALWAYS ON").
 
-1. TOC
-{:toc}
-
 ## GPIO Pinout
 
 | Pin     | Function                           |
@@ -39,17 +36,17 @@ This power strip is a Tuya device, so if you don't want to open it up and flash 
 substitutions:
   device_name: "arlec_PB89HA_1"
   name: "ARLEC PB89HA"
-  
+
 esphome:
   name: ${device_name}
   comment: ${name}
   platform: ESP8266
   board: esp01_1m
-  
+
 wifi:
   ssid: 'ssid'
   password: 'password'
-  
+
 logger:
   # Important! The status LED and button are on the Pins used by UART0,
   # so if you want to use the serial port, you can set it to UART1.
@@ -60,12 +57,12 @@ api:
 
 ota:
   password: 'ota_password'
-  
+
 status_led:
   pin:
     number: GPIO1
     inverted: True
-  
+
 sensor:
   - platform: uptime
     name: ${name} Uptime
@@ -254,5 +251,5 @@ binary_sensor:
             id(relay_b).turn_on();
             id(relay_c).turn_on();
             id(relay_d).turn_on();
-          }  
+          }
 ```

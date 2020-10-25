@@ -8,9 +8,6 @@ Standard RGB warm and cold white bulb. Flashable via tuya-convert. [Purchased fr
 
 Generally don't power on both a white channel and the color channel at full brightness - this can overheat the bulb.
 
-1. TOC
-{:toc}
-
 ## Pictures
 
 ![alt text](/sinvitron-outside.jpg "Outside of bulb")

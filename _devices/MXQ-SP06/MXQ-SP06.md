@@ -5,9 +5,6 @@ type: plug
 standard: us
 ---
 
-1. TOC
-{:toc}
-
 ## Description
 
 MXQ SP06 Smart Plug with Night Light is a small 10A 110-240V plug with built-in night light. It is based on Tuya hardware, and the initial firmware can be flashed using the "tuya-convert" technique.

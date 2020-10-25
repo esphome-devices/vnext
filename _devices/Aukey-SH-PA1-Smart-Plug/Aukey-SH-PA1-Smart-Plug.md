@@ -5,9 +5,6 @@ type: plug
 standard: us
 ---
 
-1. TOC
-{:toc}
-
 ![alt text](/aukey-plug.jpg "Aukey SH-PA1 Smart WiFi Plug")
 
 ## GPIO Pinout

@@ -4,9 +4,6 @@ date-published: 2019-10-12
 type: plug
 standard: au
 ---
-1. TOC
-{:toc}
-
 ## GPIO Pinout
 
 | Pin     | Function                           |
@@ -25,7 +22,7 @@ esphome:
   platform: ESP8266
   board: esp01_1m
   board_flash_mode: dout
-  
+
 wifi:
   ssid: 'ssid'
   password: 'password'
@@ -33,7 +30,7 @@ wifi:
     ssid: 'brilliant1'
     password: 'ap_password'
   domain: '.xxxxx.com'
-  
+
 logger:
 
 web_server:

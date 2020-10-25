@@ -10,9 +10,6 @@ Multiple versions of this socket exist. The module the 'blue ESP' pinout came fr
 
 Flashing the wrong pinout can brick the device! Enabling GPIO9 bricked the 'blue ESP' version of the plug (though GPIO10 also gave a warning, but did not brick the device). Though it is recoverable with UART/GPIO0 flashing, desoldering the module to access the ESP module's pins can damage it. Only enable pins that give the 'pin might already be used by the flash interface' warning (GPIO6-11) once you're sure that's the correct pin.
 
-1. TOC
-{:toc}
-
 ## GPIO Pinout
 
 | Pin (Blue ESP)    | Pin (Green ESP) | Function          |

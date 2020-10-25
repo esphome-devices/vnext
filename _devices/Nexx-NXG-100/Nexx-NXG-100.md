@@ -5,9 +5,6 @@ date-published: 2020-07-26
 type: relay
 standard: us
 ---
-1. TOC
-{:toc}
-
 ## Product
 
   ![alt text](/assets/images/Nexx-NXG-100/NXG-100_with_app_Black_320x192.jpg "Product Image")
@@ -65,7 +62,7 @@ web_server:
 status_led:
   pin:
     number: GPIO4
-    inverted: false  
+    inverted: false
 
 binary_sensor:
   - platform: gpio
@@ -191,7 +188,7 @@ web_server:
 status_led:
   pin:
     number: GPIO4
-    inverted: false  
+    inverted: false
 
 binary_sensor:
   - platform: gpio

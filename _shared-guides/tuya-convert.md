@@ -3,9 +3,6 @@ slug: tuya-convert
 title: Prepare a device with tuya-convert
 ---
 
-1. TOC
-{:toc}
-
 ## Introduction
 
 You can use tuya-convert to initially flash a Tuya device, without soldering.  This is especially useful for smart bulbs and other devices which can't readily be opened.

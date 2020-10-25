@@ -5,9 +5,6 @@ type: switch
 standard: au
 ---
 
-1. TOC
-{:toc}
-
 ## General Notes
 
 The DETA [Smart Triple Switch (6903HA)](https://www.bunnings.com.au/deta-grid-connect-smart-triple-gang-touch-light-switch_p0161014) is made by Arlec as part of the [Grid Connect ecosystem](https://grid-connect.com.au/), and are sold at Bunnings in Australia and New Zealand.  Note that the 3 Gang switch does NOT work with TUYA Convert at this stage, you will need to revert to a serial based flash. [Flash instructions here](https://blog.mikejmcguire.com/2020/05/22/deta-grid-connect-3-and-4-gang-light-switches-and-home-assistant/)
@@ -53,7 +50,7 @@ esphome:
 wifi:
   ssid: !secret wifi_ssid
   password: !secret wifi_pass
-  
+
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
     ssid: "Powder Room Switch"
@@ -79,8 +76,8 @@ sensor:
     name: $upper_devicename WiFi Signal
     update_interval: 15s
 
-#################################  
-  
+#################################
+
 
 
 output:
@@ -140,7 +137,7 @@ binary_sensor:
           - delay: 600s
           - switch.turn_off: heat1
         else:
-          - switch.turn_off: heat1  
+          - switch.turn_off: heat1
 
   ### Button2
   - platform: gpio

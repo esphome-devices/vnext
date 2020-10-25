@@ -5,9 +5,6 @@ type: misc
 standard: global
 ---
 
-1. TOC
-{:toc}
-
 ## Device Information
 
 * [Product Information](http://www.iot-button.eu/index_en.html)

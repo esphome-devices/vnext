@@ -5,9 +5,6 @@ type: plug
 standard: us
 ---
 
-1. TOC
-{:toc}
-
 ## GPIO Pinout
 
 | Pin     | Function                           |
@@ -29,7 +26,7 @@ substitutions:
   device_name: sp20
   friendly_name: SP20
   ip_address: <assigned static ip address for this device>
-  
+
 esphome:
   name: ${device_name}
   platform: ESP8266
@@ -51,14 +48,14 @@ wifi:
 
 web_server:
   port: 80
-  
+
 
 logger:
 
 
 api:
   password: !secret espapipass
-  
+
 
 ota:
   password: !secret espotapass
@@ -104,8 +101,8 @@ sensor:
   - platform: wifi_signal
     name: ${friendly_name} Wifi Signal
     update_interval: 60s
-  
-text_sensor:  
+
+text_sensor:
   - platform: version
     name: ${friendly_name} ESPhome Version
   - platform: wifi_info
@@ -150,7 +147,7 @@ switch:
   - platform: gpio
     pin: GPIO4
     id: relay
-  
+
   - platform: template
     # https://esphome.io/components/switch/template.html
     name: ${friendly_name}

@@ -4,9 +4,6 @@ date-published: 2020-01-19
 type: plug
 standard: au
 ---
-1. TOC
-{:toc}
-
 ## GPIO Pinout
 
 | Pin     | Function                           |
@@ -23,7 +20,7 @@ standard: au
 
 ```yaml
 substitutions:
-# Change the disp_name to something you want  
+# Change the disp_name to something you want
   dnum: "1"
   dname: genio_pb4p1u
   sname: genpb

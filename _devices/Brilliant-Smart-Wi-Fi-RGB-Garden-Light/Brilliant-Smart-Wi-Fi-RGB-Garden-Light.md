@@ -5,9 +5,6 @@ type: light
 standard: au
 ---
 
-1. TOC
-{:toc}
-
 ## General Notes
 
 This configuration is for the [Brilliant Smart Wi-Fi RGB Garden Light](https://www.brilliantsmart.com.au/smart-products/garden/smart-garden-kit/)

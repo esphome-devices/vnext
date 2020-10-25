@@ -5,9 +5,6 @@ type: plug
 standard: us
 ---
 
-1. TOC
-{:toc}
-
 ## GPIO Pinout
 
 | Pin     | Function                           |
@@ -48,8 +45,8 @@ api:
 
 ota:
   password: !secret bedroom_ss30_ota
-  
-  
+
+
 sensor:
   - platform: wifi_signal
     name: "Bedroom SS30 WiFi signal"
@@ -60,7 +57,7 @@ sensor:
 
 text_sensor:
   - platform: version
-    name: "Bedroom SS30 ESPHome version"  
+    name: "Bedroom SS30 ESPHome version"
 
 switch:
   - platform: gpio

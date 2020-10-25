@@ -4,9 +4,6 @@ date-published: 2019-10-11
 type: misc
 standard: global
 ---
-1. TOC
-{:toc}
-
 ## GPIO Pinout
 
 | Pin     | Function                           |
@@ -49,7 +46,7 @@ api:
   password: 'api_password'
 ota:
   password: 'ota_password'
-  
+
 
 
 esp32_camera:
@@ -60,9 +57,9 @@ esp32_camera:
     sda: GPIO26
     scl: GPIO27
   data_pins: [GPIO5, GPIO18, GPIO19, GPIO21, GPIO36, GPIO39, GPIO34, GPIO35]
-  
+
   # the order of the data_pins is significant, don't mix up the order
-  
+
   vsync_pin: GPIO25
   href_pin: GPIO23
   pixel_clock_pin: GPIO22

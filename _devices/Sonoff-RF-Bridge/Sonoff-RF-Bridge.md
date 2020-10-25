@@ -4,9 +4,6 @@ date-published: 2019-10-11
 type: Misc
 standard: global
 ---
-1. TOC
-{:toc}
-
 ## GPIO Pinout
 
 | Pin     | Function                             |
@@ -60,7 +57,7 @@ binary_sensor:
     on_press:
       - binary_sensor.template.publish:
           id: Sensor2
-          state: ON  
+          state: ON
   - platform: remote_receiver
     name: "Sensor 2 Closed"
     internal: yes

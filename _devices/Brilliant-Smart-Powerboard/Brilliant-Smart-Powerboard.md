@@ -4,9 +4,6 @@ date-published: 2020-03-18
 type: plug
 standard: au
 ---
-1. TOC
-{:toc}
-
 The Brilliant Smart Smart WiFi Powerboard 20691 is available in Australia and New Zealand. It has four individually switched AC outlets (each has a status LED that do not seem to be individually controllable. There are also four USB power/charge ports, all switchable but not individually. There is a button and blue and red controllable leds.
 
 ## GPIO Pinout
@@ -67,7 +64,7 @@ api:
 
 ota:
   password: "**"
-  
+
 sensor:
   - platform: uptime
     name: Multibox Uptime
@@ -193,7 +190,7 @@ binary_sensor:
             id(relay_b).turn_on();
             id(relay_c).turn_on();
             id(relay_d).turn_on();
-          }  
+          }
 
 light:
   - platform: binary

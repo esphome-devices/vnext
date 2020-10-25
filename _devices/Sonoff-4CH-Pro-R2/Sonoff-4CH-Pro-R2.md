@@ -4,9 +4,6 @@ date-published: 2019-10-11
 type: relay
 standard: global
 ---
-1. TOC
-{:toc}
-
 ## GPIO Pinout
 
 | Pin     | Function                             |

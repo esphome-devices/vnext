@@ -5,9 +5,6 @@ type: plug
 standard: uk
 ---
 
-1. TOC
-{:toc}
-
 ## Manufacturer
 
 [Tcpsmart.eu](https://www.tcpsmart.eu/)
@@ -44,7 +41,7 @@ substitutions:
   # Aka: `restore_mode` in documentation
   # Options: `RESTORE_DEFAULT_OFF`, `RESTORE_DEFAULT_ON`, `ALWAYS_ON` & `ALWAYS_OFF`
   default_state: "RESTORE_DEFAULT_OFF"
-  
+
 
 # Basic Config
 esphome:
@@ -236,7 +233,7 @@ switch:
           - light.turn_off:
               id: led
               transition_length: 0s
-  
+
 sensor:
   # WiFi Signal Sensor
   - platform: wifi_signal

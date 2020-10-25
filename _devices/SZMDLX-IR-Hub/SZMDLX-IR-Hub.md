@@ -5,9 +5,6 @@ type: misc
 standard: global
 ---
 
-1. TOC
-{:toc}
-
 ## GPIO Pinout
 
 | Pin     | Function                           |

@@ -5,9 +5,6 @@ type: dimmer
 standard: us
 ---
 
-1. TOC
-{:toc}
-
 ## GPIO Pinout
 
 | Pin     | Function                              |

@@ -4,9 +4,6 @@ date-published: 2019-10-14
 type: misc
 standard: global
 ---
-1. TOC
-{:toc}
-
 ## General Notes
 
 This works with a typical rotary encoder hardware, and simply sets the volume on a Home Assistant media_player via automations.yaml. This does present some problems, for example if the esp device is restarted, the volume mutes to 0.0. I haven't bothered to fix this, but of course contributions welcome :)
@@ -34,7 +31,7 @@ esphome:
 wifi:
   ssid: 'ssid'
   password: 'wifi_password'
-  
+
 
 # Enable logging
 logger:
@@ -45,9 +42,9 @@ api:
 
 ota:
   password: 'ota_password'
-  
+
 binary_sensor:
-  
+
   - platform: gpio
     pin:
       number: D7

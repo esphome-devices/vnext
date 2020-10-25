@@ -5,9 +5,6 @@ type: switch
 standard: eu
 ---
 
-1. TOC
-{:toc}
-
 ## Notes
 
 * push button wall switch

@@ -4,9 +4,6 @@ date-published: 2019-10-11
 type: misc
 standard: global
 ---
-1. TOC
-{:toc}
-
 ## GPIO Pinout
 
 | Pin     | Function                           |
@@ -34,10 +31,10 @@ api:
   password: 'api_password'
 ota:
   password: 'ota_password'
-  
+
 esp32_ble_tracker:
   scan_interval: 360s
-  
+
 sensor:
   - platform: xiaomi_miflora
     mac_address: '80:EA:CA:88:B3:6C'
@@ -61,7 +58,7 @@ sensor:
     illuminance:
       name: "Palour Palm Illuminance"
     conductivity:
-      name: "Palour Palm Soil Conductivity"  
+      name: "Palour Palm Soil Conductivity"
 
   - platform: xiaomi_miflora
     mac_address: '80:EA:CA:88:B3:B1'

@@ -8,9 +8,6 @@ standard: us
 
 This template has been updated with "comment:" and "captive_portal:" feautures added in ESPHome v. 1.14
 
-1. TOC
-{:toc}
-
 ## GPIO Pinout
 
 | Pin     | Function                           |

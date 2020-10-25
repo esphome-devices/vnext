@@ -8,9 +8,6 @@ These devices come with different brands, but all have AWP04L serial number on t
 
 This template has been updated with "comment:" and "captive_portal:" feautures added in ESPHome v. 1.14
 
-1. TOC
-{:toc}
-
 ## GPIO Pinout
 
 | Pin     | Function                           |
@@ -32,7 +29,7 @@ substitutions:
   device_name: awp_plug
   device_description: Energy Monitoring Smart Plug with button, blue LED, and red LED.
   friendly_name: AWP04L Plug
-  
+
 
 esphome:
   name: ${device_name}

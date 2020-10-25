@@ -5,9 +5,6 @@ type: light
 standard: au
 ---
 
-1. TOC
-{:toc}
-
 ## GPIO Pinout
 
 | Pin     | Function                           |
@@ -34,7 +31,7 @@ wifi:
     ssid: 'mirabella1'
     password: 'ap_password'
   domain: '.mydomain.com'
-  
+
 # Enable logging
 logger:
 

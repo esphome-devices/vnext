@@ -6,9 +6,6 @@ standard: eu
 ---
 RGBW smart light bulb, A19 shape, E27 base, RGB colors + cold white, 100-240V AC 50/60Hz, natively Tuya/Smart Life, works with Tuya-convert to flash to ESPHome.
 
-1. TOC
-{:toc}
-
 ## GPIO Pinout
 
 | Pin     | Function                           |
@@ -32,7 +29,7 @@ wifi:
 
 # Enable logging
 logger:
-  
+
 api:
 
 ota:

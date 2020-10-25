@@ -5,9 +5,6 @@ type: plug
 standard: uk, us, eu, au
 ---
 
-1. TOC
-{:toc}
-
 ## GPIO Pinout
 
 | Pin     | Function                           |
@@ -25,7 +22,7 @@ esphome:
   platform: ESP8266
   board: esp01_1m
   board_flash_mode: dout
-  
+
 wifi:
   ssid: 'ssid'
   password: 'wifi_password'
@@ -33,11 +30,11 @@ wifi:
    ssid: 'ap_ssid'
    password: 'Password'
   domain: '.domain.com'
-  
+
 status_led:
   pin:
     number: GPIO13
-    inverted: false  
+    inverted: false
 logger:
 
 api:
@@ -45,7 +42,7 @@ api:
 
 ota:
   password: 'OTA_password'
-  
+
 web_server:
 
 binary_sensor:

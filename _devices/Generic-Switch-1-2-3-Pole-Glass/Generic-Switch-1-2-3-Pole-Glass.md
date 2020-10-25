@@ -5,9 +5,6 @@ type: switch
 standard: us
 ---
 
-1. TOC
-{:toc}
-
 ## General Notes
 
 This config was created based on the 3 pole switch that I had.  I'm not sure what the pins for the 4 pole variant would be, but it would not be hard to figure it out if you have the unit.
@@ -18,13 +15,13 @@ There is another variant to these switches with LEDs on the buttons. These are c
 
 ## Product Images
 
-Front of 3 pole switch  
+Front of 3 pole switch
  ![alt text](/front.png "Front of 3 pole switch")
 
-Rear of 3 pole switch  
+Rear of 3 pole switch
  ![alt text](/rear.jpg "Rear of 3 pole switch")
 
-Wiring of switch  
+Wiring of switch
  ![alt text](/wiring.jpg "Wiring of switch")
 
 ## GPIO Pinout (Per top to bottom when installed)

@@ -1,12 +1,9 @@
 ---
-title: Lohas LH-ZN124 5000K 10W Dimmable 
+title: Lohas LH-ZN124 5000K 10W Dimmable
 date-published: 2019-11-21
 type: light
 standard: us
 ---
-
-1. TOC
-{:toc}
 
 ## GPIO Pinout
 

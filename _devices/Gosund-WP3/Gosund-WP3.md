@@ -5,9 +5,6 @@ type: plug
 standard: us
 ---
 
-1. TOC
-{:toc}
-
 ## GPIO Pinout
 
 | Pin     | Function                           |
@@ -45,7 +42,7 @@ api:
 
 ota:
   password: !secret gosund_1_ota
-  
+
 
 binary_sensor:
   - platform: gpio

@@ -8,9 +8,6 @@ Standard plug socket, with 2A USB port. Flashable via tuya-convert. [Purchased f
 
 At least two versions of this plug exist, but the only difference between the two is the pull-up on the pin for the button.
 
-1. TOC
-{:toc}
-
 ## Pictures
 
 ![alt text](/zentec-outside.jpg "Outside of smart plug")

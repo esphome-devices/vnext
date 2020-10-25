@@ -10,9 +10,6 @@ More info:
 <https://templates.blakadder.com/XS-A12.html>
 <https://tasmota.github.io/docs/#/devices/RGB-Smart-Plug-16A>
 
-1. TOC
-{:toc}
-
 ## GPIO Pinout
 
 | Pin     | Function                           |

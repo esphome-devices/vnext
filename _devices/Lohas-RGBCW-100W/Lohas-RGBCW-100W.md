@@ -1,12 +1,9 @@
 ---
-title: Lohas LH-ZN006 RGBCW 100W Equiv Dimmable 
+title: Lohas LH-ZN006 RGBCW 100W Equiv Dimmable
 date-published: 2019-11-21
 type: light
 standard: us
 ---
-
-1. TOC
-{:toc}
 
 ## GPIO Pinout
 
